@@ -40,3 +40,4 @@ My research interests include:
 - **Data-Driven Safety Management**
 
 My research aims to develop practical and data-driven approaches to identifying, assessing, and mitigating risks in construction environments.
+
