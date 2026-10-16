@@ -4,7 +4,7 @@ title: Awards & Patents
 permalink: /awards/
 description: Awards, patents, and software copyrights.
 nav: true
-nav_order: 5
+nav_order: 4
 ---
 
 ## Awards
