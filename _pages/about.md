@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Graduate Researcher | Construction Safety Research Laboratory (S³PARC)
 
