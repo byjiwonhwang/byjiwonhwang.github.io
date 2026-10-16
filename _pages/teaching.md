@@ -1,9 +1,9 @@
----
+<img width="1288" height="900" alt="image" src="https://github.com/user-attachments/assets/5db03bc2-eab4-493f-8d87-f4dc10438841" />---
 layout: page
 permalink: /teaching/
 title: teaching
 description: Course materials, schedules, and resources for classes taught.
-nav: true
+nav: false
 nav_order: 6
 calendar: true
 ---
