@@ -8,10 +8,6 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
-  more_info: >
-    <p>Department of Safety Engineering</p>
-    <p>Seoul National University of Science and Technology</p>
-    <p>Seoul, Republic of Korea</p>
 
 selected_papers: false
 social: true
