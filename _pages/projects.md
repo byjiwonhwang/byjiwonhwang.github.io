@@ -13,7 +13,7 @@ nav_order: 3
 .pj-period { font-size: 0.9rem; font-weight: 500; opacity: 0.55; }
 .pj-title { display: block; font-weight: 600; }
 .pj-title-ko { display: block; margin-top: 0.1rem; font-size: 0.93rem; opacity: 0.75; }
-.pj-org { display: block; margin-top: 0.35rem; font-size: 0.85rem; opacity: 0.55; }
+.pj-org { display: block; margin-top: 0.35rem; font-size: 0.85rem; opacity: 0.7; }
 .pj-role { display: block; margin-top: 0.1rem; font-size: 0.85rem; font-weight: 500; opacity: 0.8; }
 .pj-count { margin-left: 0.6rem; font-size: 0.5em; font-weight: 400; opacity: 0.5; vertical-align: middle; }
 .pj-count-line { margin-top: 1rem; font-size: 0.95rem; opacity: 0.6; }
