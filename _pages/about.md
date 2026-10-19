@@ -20,13 +20,13 @@ latest_posts:
 
 <style>
 .ab-sub-ko { margin: -0.4rem 0 1.6rem; opacity: 0.75; }
-.ab-wrap { display: flex; flex-wrap: wrap; gap: 2rem; align-items: stretch; }
-.ab-text { flex: 1 1 340px; min-width: 0; display: flex; flex-direction: column; justify-content: center; }
+.ab-wrap { display: flex; flex-wrap: wrap; gap: 2rem; align-items: center; }
+.ab-text { flex: 1 1 340px; min-width: 0; }
 .ab-text p, .ab-text ul { margin-bottom: 1rem; }
 .ab-text li { margin-bottom: 0.7rem; }
 .ab-ko { display: block; font-size: 0.95rem; opacity: 0.85; margin-top: 0.15rem; }
-.ab-photo { position: relative; flex: 0 0 300px; max-width: 100%; min-height: 340px; }
-.ab-photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center top; border-radius: 6px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); }
+.ab-photo { flex: 0 0 340px; max-width: 100%; }
+.ab-photo img { display: block; width: 100%; height: auto; border-radius: 6px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); }
 </style>
 
 <p class="ab-sub-ko">대학원 연구원 | 건설안전연구실(S³PARC)</p>
@@ -42,12 +42,12 @@ latest_posts:
 <span class="ab-ko">건설안전 전반을 연구하며, 특히 다음 세 가지 분야에 집중하고 있습니다.</span></p>
 
 <ul>
-<li><strong>Environmental Risk Assessment</strong>: how outdoor thermal conditions and air pollutants affect construction workers.
-<span class="ab-ko"><strong>환경 위험평가</strong>: 옥외 열환경과 대기오염물질이 건설 근로자에 미치는 영향.</span></li>
-<li><strong>AI for Construction Safety</strong>: machine learning, computer vision, and large language models for safety management.
-<span class="ab-ko"><strong>건설안전을 위한 인공지능</strong>: 머신러닝, 컴퓨터 비전, 거대언어모델을 활용한 안전관리.</span></li>
-<li><strong>Construction Safety Legislation</strong>: analysis of construction safety laws and management systems.
-<span class="ab-ko"><strong>건설안전 법제</strong>: 건설안전 법령과 관리체계 분석.</span></li>
+<li><strong>Risk Assessment for Outdoor Work</strong>: how outdoor thermal conditions and air pollutants affect construction workers.
+<span class="ab-ko"><strong>실외작업 위험평가</strong>: 옥외 열환경과 대기오염물질이 건설 근로자에 미치는 영향.</span></li>
+<li><strong>AI for Construction Safety</strong>: smart safety management using AI, including machine learning (ML), computer vision (CV), large language models (LLMs), and vision-language models (VLMs).
+<span class="ab-ko"><strong>건설안전을 위한 인공지능</strong>: ML, CV, LLM, VLM 등 AI를 활용한 스마트 안전관리</span></li>
+<li><strong>Construction Safety Regulatory Systems</strong>: analysis of the structure of construction safety regulatory systems and laws, among others.
+<span class="ab-ko"><strong>건설안전 제도</strong>: 건설안전 제도와 법령의 체계 분석 등</span></li>
 </ul>
 
 <p>My research aims to develop practical, data-driven approaches to identifying, assessing, and mitigating risks in construction.
