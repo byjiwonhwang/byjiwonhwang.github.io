@@ -28,7 +28,7 @@ nav_order: 3
 <ul class="pj-list">
 
 <li class="pj-item">
-<div class="pj-period">Nov 2026 – <br>Feb 2027 <br><span class="pj-dur">(4 months)</span></div>
+<div class="pj-period">Nov 2026 – <br>Jun 2028 <br><span class="pj-dur">(1 year 7 months)</span></div>
 <div class="pj-body">
 <span class="pj-title">Development of a Life-Cycle Evaluation and Prediction Model for Construction Project Safety Level Using Organizational, Project, and Environmental Leading Indicators</span>
 <span class="pj-org">Lloyd's Register Foundation</span>
