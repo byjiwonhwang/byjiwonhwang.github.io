@@ -22,17 +22,17 @@ latest_posts:
 .ab-sub-ko { margin: -0.4rem 0 1.6rem; opacity: 0.75; word-break: keep-all; }
 .ab-wrap { display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; }
 .ab-text { flex: 1 1 340px; min-width: 0; word-break: keep-all; overflow-wrap: break-word; }
-.ab-text p { margin-bottom: 1.1rem; font-weight: 500 !important; }
-.ab-ko { display: block; font-size: 0.95rem; font-weight: 300 !important; opacity: 0.8; margin-top: 0.15rem; }
+.ab-text p { margin-bottom: 1.1rem; font-weight: 400 !important; }
+.ab-ko { display: block; font-size: 0.93rem; font-weight: 300 !important; opacity: 0.62; margin-top: 0.15rem; }
 .ab-areas { list-style: none; margin: 0.5rem 0 1.5rem; padding: 0; }
 .ab-areas li { margin-bottom: 0.7rem; padding-left: 0.9rem; border-left: 3px solid rgba(128, 128, 128, 0.3); line-height: 1.45; }
-.ab-area-en { display: block; font-weight: 500 !important; }
-.ab-area-ko { display: block; font-size: 0.93rem; font-weight: 300 !important; opacity: 0.75; }
+.ab-area-en { display: block; font-weight: 400 !important; }
+.ab-area-ko { display: block; font-size: 0.9rem; font-weight: 300 !important; opacity: 0.62; }
 .ab-links { display: flex; flex-wrap: wrap; gap: 0.4rem 1.8rem; margin-top: 1.6rem; font-size: 0.95rem; font-weight: 500; }
 .ab-photo { flex: 0 0 340px; max-width: 100%; }
 .ab-photo img { display: block; width: 100%; height: auto; border-radius: 6px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); }
 .social { margin-top: 1.5rem; }
-.social .contact-icons { font-size: 2.6rem !important; }
+.social .contact-icons { font-size: 3.2rem !important; }
 .social .contact-icons a { opacity: 0.65; margin: 0 0.6rem; }
 .social .contact-icons a:hover { opacity: 1; }
 .social .contact-icons a i { font-size: inherit !important; }
