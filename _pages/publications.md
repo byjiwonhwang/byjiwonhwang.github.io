@@ -13,7 +13,7 @@ nav_order: 2
 .publications .abbr { display: none; }
 .publications .row > .col-sm-8, .publications .row > .col-sm-10 { flex: 0 0 100%; max-width: 100%; box-sizing: border-box; border-left: 3px solid rgba(128, 128, 128, 0.3); padding-left: 1rem; margin-bottom: 1.1rem; }
 .publications h2 { float: none !important; text-align: left !important; margin: 2rem 0 0.8rem !important; font-size: 1.3rem !important; font-weight: 700 !important; color: var(--global-theme-color) !important; opacity: 1 !important; }
-.publications .title, .publications ol.bibliography li .title, .publications .bibliography .title { font-weight: 500 !important; font-size: 1.02rem !important; line-height: 1.4 !important; }
+.publications .title, .publications ol.bibliography li .title, .publications .bibliography .title { font-weight: 450 !important; font-size: 1.02rem !important; line-height: 1.4 !important; }
 .pub-sep { margin: 0 0.1rem; opacity: 0.4; }
 .pub-tag { font-size: 0.85rem; font-weight: 500; opacity: 0.65; }
 .pub-impact { font-size: 0.85rem; font-weight: 600; color: var(--global-theme-color); }
