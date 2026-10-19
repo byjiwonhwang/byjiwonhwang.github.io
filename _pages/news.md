@@ -64,6 +64,7 @@ nav_order: 5
 <div class="nw-date">May 13, 2026</div>
 <div class="nw-text">Presentation at the Spring Conference of the Korean Society of Safety on a risk assessment framework linking thermal comfort prediction and accident probability.</div>
 <div class="nw-text-ko">한국안전학회 춘계학술대회에서 열쾌적성 예측과 사고확률을 연계한 위험도 평가 프레임워크를 발표했습니다.</div>
+  <img class="nw-photo" src="{{ '/assets/img/news_11.jpg' | relative_url }}" alt="2026 Spring Conference of the Korean Society of Safety" loading="lazy" onerror="this.style.display='none'">
 </div>
 
 <!-- #10 -->
