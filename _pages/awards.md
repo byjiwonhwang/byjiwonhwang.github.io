@@ -9,8 +9,8 @@ nav_order: 4
 
 <style>
 .aw-heading { display: flex; align-items: baseline; gap: 0.6rem; margin: 2.6rem 0 0.8rem; font-size: 1.3rem; font-weight: 500; }
-.aw-heading { display: flex; align-items: baseline; gap: 0.6rem; margin: 2.6rem 0 0.8rem; font-size: 1.3rem; font-weight: 500; }
-.aw-heading-ko { font-size: 0.95rem; font-weight: 400; opacity: 0.55; }
+.aw-heading { display: flex; align-items: baseline; gap: 0.6rem; margin: 2.8rem 0 0.8rem; font-size: 1.7rem; font-weight: 700; }
+  .aw-heading-ko { font-size: 0.95rem; font-weight: 400; opacity: 0.55; }
 .aw-list { border-bottom: 1px solid rgba(128, 128, 128, 0.3); }
 .aw-group { display: grid; grid-template-columns: 4.5rem 1fr; gap: 0 1rem; border-top: 1px solid rgba(128, 128, 128, 0.3); }
 .aw-year { padding-top: 1.1rem; font-size: 1rem; font-weight: 500; opacity: 0.5; }
