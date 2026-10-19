@@ -15,9 +15,10 @@ nav_order: 5
 .nw-item::before { content: ""; position: absolute; left: calc(-1.6rem - 6px); top: 0.4rem; width: 10px; height: 10px; border-radius: 50%; background: var(--global-theme-color); }
 .nw-date { font-size: 0.9rem; font-weight: 500; opacity: 0.7; margin-bottom: 0.2rem; }
 .nw-text-ko { font-size: 0.95rem; margin-top: 0.2rem; }
-.nw-photos { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 0.8rem; }
+.nw-photos { display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: flex-start; margin-top: 0.8rem; }
 .nw-photos:empty { display: none; }
-.nw-photo { display: block; width: 100%; max-width: 320px; height: auto; border-radius: 8px; }
+.nw-photo { display: block; flex: 0 0 auto; height: 240px; width: auto; max-width: 100%; object-fit: contain; border-radius: 8px; }
+@media (max-width: 600px) { .nw-photo { height: auto; width: 100%; } }
 </style>
 
 <div class="nw-year">2026</div>
