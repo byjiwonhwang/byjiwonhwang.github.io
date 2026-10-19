@@ -10,7 +10,7 @@ nav_order: 1
 <style>
 .rs-intro { margin-bottom: 1.8rem; }
 .rs-intro .rs-ko { margin: 0.3rem 0 0; padding: 0; border: none; }
-.rs-item { display: flex; gap: 2.2rem; align-items: center; padding: 2.2rem 0; border-top: 1px solid rgba(128, 128, 128, 0.25); }
+.rs-item { display: flex; gap: 2.2rem; align-items: center; padding: 2.4rem 0; }
 .rs-item.rs-rev { flex-direction: row-reverse; }
 .rs-img { flex: 0 0 42%; max-width: 420px; }
 .rs-img img { display: block; width: 100%; height: auto; border-radius: 8px; }
@@ -18,8 +18,8 @@ nav_order: 1
 .rs-num { margin-bottom: 0.3rem; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.08em; color: var(--global-theme-color); }
 .rs-text h3 { margin: 0 0 0.7rem; font-size: 1.45rem; font-weight: 700 !important; line-height: 1.3; }
 .rs-text p { margin-bottom: 0; line-height: 1.6; }
-.rs-ko { margin-top: 0.8rem; padding-top: 0.8rem; border-top: 1px solid rgba(128, 128, 128, 0.25); font-size: 0.93rem; opacity: 0.75; }
-.rs-end { border-top: 1px solid rgba(128, 128, 128, 0.25); }
+.rs-ko { margin-top: 0.9rem; font-size: 0.93rem; opacity: 0.7; }
+.rs-end { display: none; }
 @media (max-width: 700px) {
   .rs-item, .rs-item.rs-rev { flex-direction: column; align-items: stretch; gap: 1.2rem; }
   .rs-img { flex: none; width: 100%; max-width: 100%; }
