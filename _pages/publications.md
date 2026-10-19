@@ -8,12 +8,11 @@ nav_order: 2
 ---
 
 <style>
-.publications .author em { font-style: normal; font-weight: 400; color: var(--global-theme-color); border-bottom: none !important; text-decoration: none !important; }
+.publications .author em { font-style: normal; font-weight: 400; color: var(--global-theme-color); border-bottom: 1px solid var(--global-theme-color) !important; text-decoration: none !important; }
 .pub-section-title { margin-top: 2.5rem; font-weight: 700; }
 .publications .abbr { display: none; }
-.publications .row > .col-sm-8, .publications .row > .col-sm-10 { flex: 0 0 100%; max-width: 100%; }
+.publications .row > .col-sm-8, .publications .row > .col-sm-10 { flex: 0 0 100%; max-width: 100%; box-sizing: border-box; border-left: 3px solid rgba(128, 128, 128, 0.3); padding-left: 1rem; margin-bottom: 1.1rem; }
 .publications h2 { float: none !important; text-align: left !important; margin: 2rem 0 0.8rem !important; font-size: 1.5rem !important; font-weight: 700 !important; color: var(--global-theme-color) !important; opacity: 1 !important; }
-.pub-section-title { margin-top: 2.5rem; }
 .pub-sep { margin: 0 0.1rem; opacity: 0.4; }
 .pub-tag { font-size: 0.85rem; font-weight: 500; opacity: 0.65; }
 .pub-impact { font-size: 0.85rem; font-weight: 600; color: var(--global-theme-color); }
