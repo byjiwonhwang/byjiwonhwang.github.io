@@ -2,6 +2,9 @@
   {% assign entrymonth = '' %}
   {% capture entryyear %} {{ entry.pubdate }}{% endcapture %}
 {% endif %}
-{% if entry.pubtag or entry.impact_factor %}
-  {% capture entryyear %}{{ entryyear }}<br><span class="pub-tags">{% if entry.pubtag %}<span class="pub-tag" data-tag="{{ entry.pubtag }}">{{ entry.pubtag }}</span>{% endif %}{% if entry.impact_factor %}<span class="pub-impact">IF {{ entry.impact_factor }}{% if entry.jif_top %} &middot; JIF Top {{ entry.jif_top }}%{% endif %}{% if entry.jcr_year %} (JCR {{ entry.jcr_year }}){% endif %}</span>{% endif %}</span>{% endcapture %}
+{% if entry.pubtag %}
+  {% capture entryyear %}{{ entryyear }} <span class="pub-sep">&middot;</span> <span class="pub-tag" data-tag="{{ entry.pubtag }}">{{ entry.pubtag }}</span>{% endcapture %}
+{% endif %}
+{% if entry.impact_factor %}
+  {% capture entryyear %}{{ entryyear }} <span class="pub-sep">&middot;</span> <span class="pub-impact">IF {{ entry.impact_factor }}{% if entry.jif_top %} &middot; JIF Top {{ entry.jif_top }}%{% endif %}{% if entry.jcr_year %} (JCR {{ entry.jcr_year }}){% endif %}</span>{% endcapture %}
 {% endif %}
