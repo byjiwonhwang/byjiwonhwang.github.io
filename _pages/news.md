@@ -25,7 +25,7 @@ nav_order: 5
 <div class="nw-item">
 <div class="nw-date">Oct 28, 2026</div>
 <div class="nw-text">Presentation at the Fall Conference of the Korean Society of Safety on a thermal comfort–air quality integrated index (ERI) for compound environmental risk assessment at construction sites.</div>
-<div class="nw-text-ko">한국안전학회 추계학술대회에서 건설현장 복합 환경위험 평가를 위한 열쾌적성·공기질 통합지수(ERI) 발표.</div>
+<div class="nw-text-ko">한국안전학회 추계학술대회에서 건설현장 복합 환경위험 평가를 위한 열쾌적성·공기질 통합지수(ERI) 발표했습니다.</div>
 </div>
 
 <!-- #16 -->
@@ -78,7 +78,13 @@ nav_order: 5
 
 <div class="nw-year">2025</div>
 <div class="nw-timeline">
-
+<!-- #17 -->
+<div class="nw-item">
+<div class="nw-date">Dec 31, 2025</div>
+<div class="nw-text">Paper published in the Journal of the Korean Society of Safety on the relationship between outdoor thermal environment, thermal comfort, and occupational accidents in the construction industry: a systematic review. · <a href="https://kiss.kstudy.com/Detail/Ar?key=4277456">Paper</a></div>
+<div class="nw-text-ko">건설업에서 실외 열환경 및 열쾌적성과 산업재해의 관계에 대한 체계적 고찰 논문이 한국안전학회지에 게재되었습니다.</div>
+</div>
+  
 <!-- #9 -->
 <div class="nw-item">
 <div class="nw-date">Nov 16, 2025</div>
