@@ -8,7 +8,8 @@ nav_order: 2
 ---
 
 <style>
-.publications .author em { font-style: normal; font-weight: 700; color: var(--global-theme-color); }
+.publications .author em { font-style: normal; font-weight: 400; color: var(--global-theme-color); border-bottom: none !important; text-decoration: none !important; }
+.pub-section-title { margin-top: 2.5rem; font-weight: 700; }
 .publications .abbr { display: none; }
 .publications .row > .col-sm-8, .publications .row > .col-sm-10 { flex: 0 0 100%; max-width: 100%; }
 .publications h2 { float: none !important; text-align: left !important; margin: 2rem 0 0.8rem !important; font-size: 1.5rem !important; font-weight: 700 !important; color: var(--global-theme-color) !important; opacity: 1 !important; }
