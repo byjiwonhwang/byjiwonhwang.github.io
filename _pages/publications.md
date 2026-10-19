@@ -1,20 +1,77 @@
 ---
-layout: page
-permalink: /publications/
-title: Publications
-description: Journal articles and conference presentations.
-nav: true
-nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
+@article{hwang2025review,
+  abbr = {Journal},
+  title = {A Systematic Review on the Relationship between Outdoor Thermal Environment, Thermal Comfort and Occupational Accidents in the Construction Industry},
+  author = {Hwang, Jiwon and Jeong, Jaewook},
+  journal = {Journal of the Korean Society of Safety (in Korean)},
+  volume = {40},
+  number = {6},
+  pages = {21--28},
+  year = {2025},
+  html = {https://kiss.kstudy.com/Detail/Ar?key=4277456}
+}
 
-<!-- Bibsearch Feature -->
+@article{kim2025fte,
+  abbr = {Journal},
+  title = {A Study on the Problems in the Estimation Method of Full-Time Equivalent Workers in the Korean Construction Industry},
+  author = {Kim, Hajeong and Jeong, Jaewook and Hwang, Jiwon},
+  journal = {Journal of the Korean Society of Safety (in Korean)},
+  volume = {40},
+  number = {5},
+  pages = {45--53},
+  year = {2025},
+  doi = {10.14346/JKOSOS.2025.40.5.45},
+  html = {https://koreascience.kr/article/JAKO202507636087265.page}
+}
 
-{% include bib_search.liquid %}
+@article{hwang2023scs,
+  abbr = {Journal},
+  title = {Establishment of Outdoor Thermal Comfort Index Groups for Quantifying Climate Impact on Construction Accidents},
+  author = {Hwang, Jiwon and Jeong, Jaewook and Lee, Minsu and Jeong, Jaemin and Lee, Jaehyun},
+  journal = {Sustainable Cities and Society},
+  volume = {91},
+  pages = {104431},
+  year = {2023},
+  html = {https://www.sciencedirect.com/science/article/pii/S2210670723000422}
+}
 
-<div class="publications">
+@inproceedings{jeong2025blockchain,
+  abbr = {Conference},
+  title = {Blockchain-based Framework for Securing Construction Worker Certification and Task Authorization},
+  author = {Jeong, Jaewook and Kumi, Louis and Jeong, Jaemin and Mun, Hyeongjun and Kim, Minji and Yun, Sangho and Son, Jaehui and Gu, Minsang and Song, Minwoo and Hwang, Jiwon},
+  booktitle = {Proceedings of the International Symposium on Automation and Robotics in Construction (ISARC)},
+  volume = {42},
+  pages = {609--616},
+  publisher = {IAARC},
+  year = {2025},
+  html = {https://www.proquest.com/docview/3240509156}
+}
 
-{% bibliography %}
+@inproceedings{hwang2026framework,
+  abbr = {Conference},
+  title = {A Risk Assessment Framework Linking Thermal Comfort Prediction and Accident Probability at Construction Sites},
+  author = {Hwang, Jiwon},
+  booktitle = {Spring Conference of the Korean Society of Safety (in Korean)},
+  year = {2026},
+  month = may
+}
 
-</div>
+@inproceedings{hwang2025correction,
+  abbr = {Conference},
+  title = {A Site-Based Weather Data Correction Model for Accurate Outdoor Thermal Comfort Assessment at Construction Sites},
+  author = {Hwang, Jiwon},
+  booktitle = {Fall Conference of the Korean Society of Safety (in Korean)},
+  year = {2025},
+  month = nov
+}
+
+@inproceedings{hwang2021sapa,
+  abbr = {Conference},
+  title = {An Analysis of Interpretive Differences in the Serious Accidents Punishment Act among Stakeholders and Future Tasks},
+  author = {Hwang, Jiwon},
+  booktitle = {Spring Conference of the Korean Society of Safety (in Korean)},
+  year = {2021},
+  month = sep
+}
