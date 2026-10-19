@@ -55,9 +55,9 @@ nav_order: 4
 <ul class="aw-list">
 
 <li>
-<span class="aw-title"><a href="https://doi.org/10.8080/1020220090720">Apparatus and Method for Calculating Accident Occurrence Probability Based on Outdoor Thermal Comfort Index</a></span>
+<span class="aw-title">Apparatus and Method for Calculating Accident Occurrence Probability Based on Outdoor Thermal Comfort Index</span>
 <span class="aw-meta">Korean Patent No. 10-2971446</span>
-<span class="aw-meta">Filed Jul 22, 2022 · Registered May 27, 2026</span>
+<span class="aw-meta">Filed Jul 22, 2022 · Registered May 27, 2026 · <a href="https://doi.org/10.8080/1020220090720">Patent record</a></span>
 </li>
 
 </ul>
