@@ -4,11 +4,6 @@ title: About
 permalink: /
 subtitle: Graduate Researcher | Construction Safety Research Laboratory (S³PARC)
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false
-
 selected_papers: false
 social: true
 
@@ -23,16 +18,45 @@ latest_posts:
   limit: 3
 ---
 
-I am a graduate researcher in the Department of Safety Engineering at Seoul National University of Science and Technology (SeoulTech), working in the Construction Safety Research Laboratory (S³PARC).
+<style>
+.ab-sub-ko { margin: -0.4rem 0 1.6rem; opacity: 0.75; }
+.ab-wrap { display: flex; flex-wrap: wrap; gap: 2rem; align-items: stretch; }
+.ab-text { flex: 1 1 340px; min-width: 0; display: flex; flex-direction: column; justify-content: center; }
+.ab-text p, .ab-text ul { margin-bottom: 1rem; }
+.ab-text li { margin-bottom: 0.7rem; }
+.ab-ko { display: block; font-size: 0.95rem; opacity: 0.85; margin-top: 0.15rem; }
+.ab-photo { position: relative; flex: 0 0 300px; max-width: 100%; min-height: 340px; }
+.ab-photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center top; border-radius: 6px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); }
+</style>
 
-My research focuses on **construction safety, quantitative risk assessment, and artificial intelligence-based safety management**.
+<p class="ab-sub-ko">대학원 연구원 | 건설안전연구실(S³PARC)</p>
 
-My research interests include:
+<div class="ab-wrap">
 
-- **Construction Safety and Risk Assessment**
-- **Artificial Intelligence for Construction Safety**
-- **Environmental Risk Assessment in Construction**
-- **Data-Driven Safety Management**
+<div class="ab-text">
 
-My research aims to develop practical and data-driven approaches to identifying, assessing, and mitigating risks in construction environments.
+<p>I am a graduate researcher in the Department of Safety Engineering at Seoul National University of Science and Technology (SeoulTech), working in the Construction Safety Research Laboratory (S³PARC).
+<span class="ab-ko">저는 서울과학기술대학교(SeoulTech) 안전공학과 대학원생으로, 건설안전연구실(S³PARC)에서 연구하고 있습니다.</span></p>
 
+<p>My research covers construction safety as a whole, with a focus on three areas:
+<span class="ab-ko">건설안전 전반을 연구하며, 특히 다음 세 가지 분야에 집중하고 있습니다.</span></p>
+
+<ul>
+<li><strong>Environmental Risk Assessment</strong>: how outdoor thermal conditions and air pollutants affect construction workers.
+<span class="ab-ko"><strong>환경 위험평가</strong>: 옥외 열환경과 대기오염물질이 건설 근로자에 미치는 영향.</span></li>
+<li><strong>AI for Construction Safety</strong>: machine learning, computer vision, and large language models for safety management.
+<span class="ab-ko"><strong>건설안전을 위한 인공지능</strong>: 머신러닝, 컴퓨터 비전, 거대언어모델을 활용한 안전관리.</span></li>
+<li><strong>Construction Safety Legislation</strong>: analysis of construction safety laws and management systems.
+<span class="ab-ko"><strong>건설안전 법제</strong>: 건설안전 법령과 관리체계 분석.</span></li>
+</ul>
+
+<p>My research aims to develop practical, data-driven approaches to identifying, assessing, and mitigating risks in construction.
+<span class="ab-ko">건설 현장의 위험을 식별, 평가, 완화하기 위한 실용적이고 데이터에 기반한 접근을 연구합니다.</span></p>
+
+</div>
+
+<div class="ab-photo">
+<img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" alt="Jiwon Hwang">
+</div>
+
+</div>
