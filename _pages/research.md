@@ -8,8 +8,8 @@ nav_order: 1
 ---
 
 <style>
-.rs-intro { margin-bottom: 1.8rem; }
-.rs-intro .rs-ko { margin: 0.3rem 0 0; padding: 0; border: none; }
+.rs-intro p:first-child { font-size: 1.25rem; font-weight: 500; line-height: 1.5; margin-bottom: 0.4rem; }
+.rs-intro .rs-ko { font-size: 1rem; opacity: 0.75; }
 .rs-item { display: flex; gap: 2.2rem; align-items: center; padding: 2.4rem 0; }
 .rs-item.rs-rev { flex-direction: row-reverse; }
 .rs-img { flex: 0 0 42%; max-width: 420px; }
