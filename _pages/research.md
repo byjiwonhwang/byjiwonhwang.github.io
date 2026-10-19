@@ -8,6 +8,8 @@ nav_order: 1
 ---
 
 <style>
+.rs-intro { margin-bottom: 0.5rem; }
+.rs-ko { font-size: 0.95rem; opacity: 0.85; margin-top: 0.5rem; }
 .rs-item { display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: center; margin: 2.5rem 0; }
 .rs-img { flex: 1 1 260px; max-width: 400px; }
 .rs-img img { width: 100%; height: auto; border-radius: 8px; }
@@ -16,13 +18,17 @@ nav_order: 1
 .rs-text p { margin-bottom: 0; }
 </style>
 
-My research addresses construction safety from three directions: environmental risk, artificial intelligence, and legislation.
+<div class="rs-intro">
+<p>My research covers construction safety as a whole, with a focus on three areas.</p>
+<p class="rs-ko">건설안전 전반을 연구하며, 특히 다음 세 가지 분야에 집중하고 있습니다.</p>
+</div>
 
 <div class="rs-item">
-<div class="rs-img"><img src="{{ '/assets/img/research_1.jpg' | relative_url }}" alt="Environmental risk assessment"></div>
+<div class="rs-img"><img src="{{ '/assets/img/research_1.jpg' | relative_url }}" alt="Risk assessment for outdoor work"></div>
 <div class="rs-text">
-<h3>Environmental Risk Assessment</h3>
+<h3>Risk Assessment for Outdoor Work</h3>
 <p>I develop models that assess how outdoor thermal conditions and air pollutants affect construction workers. My work covers site-based weather data correction, machine learning prediction of thermal comfort, and linking the predictions to accident probability. I also develop an integrated index of thermal comfort and air quality to assess compound environmental risk.</p>
+<p class="rs-ko">옥외 열환경과 대기오염물질이 건설 근로자에 미치는 영향을 평가하는 모델을 개발합니다. 현장 기반 기상 데이터 보정, 열쾌적성의 머신러닝 예측, 예측값과 사고확률의 연계를 다룹니다. 또한 열쾌적성과 공기질을 통합한 지수를 만들어 복합 환경위험을 평가합니다.</p>
 </div>
 </div>
 
@@ -30,14 +36,16 @@ My research addresses construction safety from three directions: environmental r
 <div class="rs-img"><img src="{{ '/assets/img/research_2.jpg' | relative_url }}" alt="AI for construction safety"></div>
 <div class="rs-text">
 <h3>AI for Construction Safety</h3>
-<p>I apply machine learning, computer vision, and large language models to construction safety management. I also work on an Artificial Intelligence of Things (AIoT) solution that supports worker safety management using real-time outdoor environmental quality.</p>
+<p>I apply AI to smart safety management in construction, including machine learning (ML), computer vision (CV), large language models (LLMs), and vision-language models (VLMs). I also work on an Artificial Intelligence of Things (AIoT) solution that supports worker safety management using real-time outdoor environmental quality.</p>
+<p class="rs-ko">ML, CV, LLM, VLM 등 AI를 건설현장의 스마트 안전관리에 적용합니다. 또한 실시간 실외환경질을 활용해 근로자 안전관리를 지원하는 AIoT 솔루션을 연구합니다.</p>
 </div>
 </div>
 
 <div class="rs-item">
-<div class="rs-img"><img src="{{ '/assets/img/research_3.jpg' | relative_url }}" alt="Construction safety legislation"></div>
+<div class="rs-img"><img src="{{ '/assets/img/research_3.jpg' | relative_url }}" alt="Construction safety regulatory systems"></div>
 <div class="rs-text">
-<h3>Construction Safety Legislation</h3>
-<p>I analyze construction safety legislation and management systems. Topics include how the Serious Accidents Punishment Act is interpreted by different stakeholders, and problems in the estimation of full-time equivalent workers in the Korean construction industry.</p>
+<h3>Construction Safety Regulatory Systems</h3>
+<p>I analyze the structure of construction safety regulatory systems and laws. Topics include how the Serious Accidents Punishment Act is interpreted by different stakeholders, and problems in the estimation of full-time equivalent workers in the Korean construction industry.</p>
+<p class="rs-ko">건설안전 제도와 법령의 체계를 분석합니다. 중대재해처벌법에 대한 수용주체별 해석 차이, 국내 건설업 상시근로자 수 산출방식의 문제점 등을 다룹니다.</p>
 </div>
 </div>
