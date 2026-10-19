@@ -1,4 +1,10 @@
 ---
+layout: page
+permalink: /publications/
+title: Publications
+description: Journal articles and conference presentations.
+nav: true
+nav_order: 2
 ---
 
 @article{hwang2025review,
