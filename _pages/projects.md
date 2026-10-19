@@ -77,7 +77,7 @@ nav_order: 3
 </li>
 
 <li class="pj-item">
-<div class="pj-period">Jan 2026 – <br>Dec 2026 <br><span class="pj-dur">(1 year)</span></div>
+<div class="pj-period">July 2026 – <br>Dec 2026 <br><span class="pj-dur">(6 months)</span></div>
 <div class="pj-body">
 <span class="pj-title">S³PARC (2026 Laboratory-Specialized Startup-Leading University Program, Innovation Startup Laboratory Unit Project)</span>
 <span class="pj-title-ko">2026년 실특사업 혁신창업실험실 단위과제</span>
