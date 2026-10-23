@@ -3,7 +3,7 @@
   {% capture entryyear %} {{ entry.pubdate }}{% endcapture %}
 {% endif %}
 {% if entry.pubtag %}
-  {% capture entryyear %}{{ entryyear }} <span class="pub-sep">&middot;</span> <span class="pub-tag" data-tag="{{ entry.pubtag }}">{{ entry.pubtag }}</span>{% endcapture %}
+  {% capture entryyear %}{{ entryyear }} <span class="pub-tag" data-tag="{{ entry.pubtag }}">{{ entry.pubtag }}</span>{% endcapture %}
 {% endif %}
 {% if entry.impact_factor %}
   {% capture entryyear %}{{ entryyear }} <span class="pub-sep">&middot;</span> <span class="pub-impact">IF {{ entry.impact_factor }}{% if entry.jif_top %} &middot; JIF Top {{ entry.jif_top }}%{% endif %}{% if entry.jcr_year %} (JCR {{ entry.jcr_year }}){% endif %}</span>{% endcapture %}
