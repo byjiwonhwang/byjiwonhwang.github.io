@@ -8,9 +8,8 @@ nav_order: 4
 ---
 
 <style>
-.aw-heading { display: flex; align-items: baseline; gap: 0.6rem; margin: 2.6rem 0 0.8rem; font-size: 1.3rem; font-weight: 500; }
 .aw-heading { display: flex; align-items: baseline; gap: 0.6rem; margin: 2.8rem 0 0.8rem; font-size: 1.7rem; font-weight: 700; }
-  .aw-heading-ko { font-size: 0.95rem; font-weight: 400; opacity: 0.55; }
+.aw-heading-ko { font-size: 0.95rem; font-weight: 400; opacity: 0.55; }
 .aw-list { border-bottom: 1px solid rgba(128, 128, 128, 0.3); }
 .aw-group { display: grid; grid-template-columns: 4.5rem 1fr; gap: 0 1rem; border-top: 1px solid rgba(128, 128, 128, 0.3); }
 .aw-year { padding-top: 1.1rem; font-size: 1rem; font-weight: 500; opacity: 0.5; }
@@ -83,6 +82,7 @@ nav_order: 4
 
 </div>
 
+
 <h2 class="aw-heading">Patents <span class="aw-heading-ko">특허</span></h2>
 
 <div class="aw-list">
@@ -94,7 +94,8 @@ nav_order: 4
 <li class="aw-item">
 <span class="aw-title">Apparatus and Method for Calculating Accident Occurrence Probability Based on Outdoor Thermal Comfort Index</span>
 <span class="aw-title-ko">실외 열쾌적성 지수 기반 사고발생 확률 산출 장치 및 방법</span>
-<span class="aw-meta"><span class="aw-org">Korean Patent No. 10-2971446 · 대한민국 특허 제10-2971446호</span></span>
+<span class="aw-status">Registered</span>
+<span class="aw-meta"><span class="aw-org">Korean Patent Registration No. 10-2971446 · 대한민국 특허 제10-2971446호</span></span>
 <span class="aw-meta"><span class="aw-date">Filed Jul 22, 2022 · Registered May 27, 2026</span></span>
 <a class="aw-link" href="https://doi.org/10.8080/1020220090720">Patent record ↗</a>
 </li>
