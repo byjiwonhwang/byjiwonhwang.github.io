@@ -1,3 +1,4 @@
+
 ---
 layout: page
 title: News
@@ -8,17 +9,158 @@ nav_order: 6
 ---
 
 <style>
-.nw-year { font-size: 1.6rem; font-weight: 500; margin: 2.5rem 0 1.2rem; }
+/* Timeline */
+.nw-year {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin: 2.5rem 0 1.2rem;
+}
 .nw-year:first-of-type { margin-top: 1rem; }
-.nw-timeline { margin-left: 0.5rem; padding-left: 1.6rem; border-left: 2px solid rgba(128, 128, 128, 0.35); }
-.nw-item { position: relative; margin-bottom: 1.9rem; line-height: 1.5; }
-.nw-item::before { content: ""; position: absolute; left: calc(-1.6rem - 6px); top: 0.4rem; width: 10px; height: 10px; border-radius: 50%; background: var(--global-theme-color); }
-.nw-date { font-size: 0.9rem; font-weight: 500; opacity: 0.7; margin-bottom: 0.2rem; }
-.nw-text-ko { font-size: 0.95rem; margin-top: 0.2rem; }
-.nw-photos { display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: flex-start; margin-top: 0.8rem; }
-.nw-photos:empty { display: none; }
-.nw-photo { display: block; flex: 0 0 auto; height: 240px; width: auto; max-width: 100%; object-fit: contain; border-radius: 8px; }
-@media (max-width: 600px) { .nw-photo { height: auto; width: 100%; } }
+
+.nw-timeline {
+  margin-left: 0.5rem;
+  padding-left: 1.6rem;
+  border-left: 2px solid rgba(128,128,128,0.35);
+}
+
+.nw-item {
+  position: relative;
+  margin-bottom: 1.9rem;
+  line-height: 1.5;
+}
+
+.nw-item::before {
+  content: "";
+  position: absolute;
+  left: calc(-1.6rem - 6px);
+  top: 0.4rem;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--global-theme-color);
+}
+
+.nw-date {
+  font-size: 0.9rem;
+  font-weight: 500;
+  opacity: 0.7;
+  margin-bottom: 0.2rem;
+}
+
+.nw-text-ko {
+  font-size: 0.95rem;
+  margin-top: 0.2rem;
+}
+
+/* Photo buttons */
+.nw-photos {
+  margin-top: 0.45rem;
+}
+
+.nw-photos:empty {
+  display: none;
+}
+
+.nw-photo-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: var(--global-theme-color);
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.nw-photo-link:hover {
+  text-decoration: underline;
+}
+
+/* Lightbox */
+.nw-lightbox[hidden] {
+  display: none !important;
+}
+
+.nw-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3.5rem 3rem;
+  background: rgba(0,0,0,0.9);
+}
+
+.nw-lightbox-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+  max-width: 100%;
+}
+
+.nw-lightbox-img {
+  display: block;
+  max-width: 85vw;
+  max-height: 78vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.nw-lightbox-caption {
+  color: #ddd;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.nw-lightbox button {
+  position: absolute;
+  padding: 0.5rem;
+  border: none;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.nw-lightbox-close {
+  top: 1rem;
+  right: 1.5rem;
+  font-size: 2rem;
+}
+
+.nw-lightbox-prev,
+.nw-lightbox-next {
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2.5rem;
+}
+
+.nw-lightbox-prev { left: 1rem; }
+.nw-lightbox-next { right: 1rem; }
+
+.nw-lightbox button[hidden] {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .nw-lightbox {
+    padding: 3rem 0.5rem;
+  }
+
+  .nw-lightbox-img {
+    max-width: 95vw;
+    max-height: 75vh;
+  }
+
+  .nw-lightbox-prev { left: 0.2rem; }
+  .nw-lightbox-next { right: 0.2rem; }
+}
 </style>
 
 <div class="nw-year">2026</div>
@@ -181,26 +323,166 @@ nav_order: 6
 (function () {
   var base = '{{ "/assets/img/" | relative_url }}';
   var exts = ['jpg', 'jpeg', 'png', 'webp'];
-  function tryExt(box, name, i, done) {
-    if (i >= exts.length) { done(false); return; }
-    var img = new Image();
-    img.onload = function () {
-      img.className = 'nw-photo';
-      img.alt = box.getAttribute('data-alt') || '';
-      box.appendChild(img);
-      done(true);
-    };
-    img.onerror = function () { tryExt(box, name, i + 1, done); };
-    img.src = base + name + '.' + exts[i];
+
+  /* Create lightbox */
+  var lightbox = document.createElement('div');
+  lightbox.className = 'nw-lightbox';
+  lightbox.hidden = true;
+  lightbox.setAttribute('role', 'dialog');
+  lightbox.setAttribute('aria-modal', 'true');
+  lightbox.setAttribute('aria-label', 'News photos');
+
+  lightbox.innerHTML = `
+    <button class="nw-lightbox-close" aria-label="Close">×</button>
+    <button class="nw-lightbox-prev" aria-label="Previous photo">‹</button>
+    <div class="nw-lightbox-content">
+      <img class="nw-lightbox-img" alt="">
+      <div class="nw-lightbox-caption"></div>
+    </div>
+    <button class="nw-lightbox-next" aria-label="Next photo">›</button>
+  `;
+
+  document.body.appendChild(lightbox);
+
+  var display = lightbox.querySelector('.nw-lightbox-img');
+  var caption = lightbox.querySelector('.nw-lightbox-caption');
+  var prev = lightbox.querySelector('.nw-lightbox-prev');
+  var next = lightbox.querySelector('.nw-lightbox-next');
+  var close = lightbox.querySelector('.nw-lightbox-close');
+
+  var photos = [];
+  var current = 0;
+  var currentAlt = '';
+  var opener = null;
+
+  function showPhoto() {
+    display.src = photos[current];
+    display.alt = currentAlt;
+    caption.textContent =
+      currentAlt + ' · ' + (current + 1) + ' / ' + photos.length;
+
+    prev.hidden = photos.length <= 1;
+    next.hidden = photos.length <= 1;
   }
-  function loadPhotos(box, n, k) {
+
+  function openLightbox(items, alt) {
+    photos = items.slice();
+    current = 0;
+    currentAlt = alt;
+    opener = document.activeElement;
+
+    lightbox.hidden = false;
+    document.body.style.overflow = 'hidden';
+    showPhoto();
+    close.focus();
+  }
+
+  function closeLightbox() {
+    lightbox.hidden = true;
+    display.removeAttribute('src');
+    document.body.style.overflow = '';
+    if (opener) opener.focus();
+  }
+
+  function movePhoto(step) {
+    current = (current + step + photos.length) % photos.length;
+    showPhoto();
+  }
+
+  prev.addEventListener('click', function () {
+    movePhoto(-1);
+  });
+
+  next.addEventListener('click', function () {
+    movePhoto(1);
+  });
+
+  close.addEventListener('click', closeLightbox);
+
+  lightbox.addEventListener('click', function (e) {
+    if (e.target === lightbox) closeLightbox();
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (lightbox.hidden) return;
+
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft' && photos.length > 1) movePhoto(-1);
+    if (e.key === 'ArrowRight' && photos.length > 1) movePhoto(1);
+
+    if (e.key === 'Tab') {
+      var focusable = [close];
+      if (photos.length > 1) focusable.push(prev, next);
+      var first = focusable[0];
+      var last = focusable[focusable.length - 1];
+
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    }
+  });
+
+  /* Detect image extensions */
+  function tryExt(name, i, done) {
+    if (i >= exts.length) {
+      done(null);
+      return;
+    }
+
+    var url = base + name + '.' + exts[i];
+    var img = new Image();
+
+    img.onload = function () {
+      done(url);
+    };
+
+    img.onerror = function () {
+      tryExt(name, i + 1, done);
+    };
+
+    img.src = url;
+  }
+
+  /* Load up to four photos */
+  function loadPhotos(box, n, k, items, button) {
+    if (k > 4) return;
+
     var name = 'news_' + n + (k > 1 ? '_' + k : '');
-    tryExt(box, name, 0, function (ok) {
-      if (ok && 4 > k) { loadPhotos(box, n, k + 1); }
+
+    tryExt(name, 0, function (url) {
+      if (!url) return;
+
+      items.push(url);
+
+      button.textContent = '▧ View photos (' + items.length + ')';
+
+      if (!button.isConnected) {
+        box.appendChild(button);
+      }
+
+      loadPhotos(box, n, k + 1, items, button);
     });
   }
+
+  /* Initialize news photos */
   document.querySelectorAll('.nw-photos').forEach(function (box) {
-    loadPhotos(box, box.getAttribute('data-news'), 1);
+    var n = box.getAttribute('data-news');
+    var alt = box.getAttribute('data-alt') || 'News photos';
+    var items = [];
+
+    var button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'nw-photo-link';
+
+    button.addEventListener('click', function () {
+      openLightbox(items, alt);
+    });
+
+    loadPhotos(box, n, 1, items, button);
   });
 })();
 </script>
