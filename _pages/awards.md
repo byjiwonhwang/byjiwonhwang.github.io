@@ -127,6 +127,7 @@ nav_order: 4
   </div>
 </div>
 
+
 <!-- Software Copyrights -->
 <h3 class="aw-heading">
   Software Copyrights
@@ -161,12 +162,17 @@ nav_order: 4
             Authors: Jaewook Jeong, Jiwon Hwang, Louis Kumi
           </span>
         </span>
-        <span class="aw-meta">
-          <span class="aw-org">
-            Copyright Holder: Seoul National University of Science and Technology Industry-Academic Cooperation Foundation
-          </span>
-        </span>
+        <a class="aw-link"
+           href="https://www.cros.or.kr/psnsys/cmmn/infoPage.do?w2xPath=/ui/twc/sch/swRscOtct/swRscOtctDtl.xml"
+           target="_blank"
+           rel="noopener noreferrer">
+          Software record ↗
+        </a>
       </li>
+
+    </ul>
+  </div>
+</div>
 
     </ul>
   </div>
