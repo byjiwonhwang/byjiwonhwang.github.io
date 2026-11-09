@@ -41,7 +41,9 @@ nav_order: 4
 <span class="aw-title">AI SeoulTech Research Support Program Scholarship</span>
 <span class="aw-title-ko">AI서울테크 연구지원사업 장학금</span>
 <span class="aw-meta"><span class="aw-date">Jun 19, 2026</span><span class="aw-org"> · Seoul Future Talent Foundation 서울미래인재재단</span></span>
+<a class="aw-link" href="https://www.seoultech.ac.kr/intro/infobox/research/?do=commonview&amp;searchtext=%ED%99%A9%EC%A7%80%EC%9B%90&amp;searchtype=1&amp;nowpage=1&amp;bnum=58276&amp;bidx=891390&amp;cate=14" target="_blank" rel="noopener noreferrer">News ↗</a>
 </li>
+
 
 </ul>
 </div>
@@ -68,6 +70,7 @@ nav_order: 4
 <span class="aw-title">Presidential Science Scholarship (Graduate), 23rd Cohort</span>
 <span class="aw-title-ko">대학원 대통령과학장학금 장학생 (제23기)</span>
 <span class="aw-meta"><span class="aw-date">Jun 5, 2025</span><span class="aw-org"> · Korea Student Aid Foundation 한국장학재단</span></span>
+<a class="aw-link" href="https://www.safetyin.co.kr/news/articleView.html?idxno=21930" target="_blank" rel="noopener noreferrer">News ↗</a>
 </li>
 
 <li class="aw-item">
