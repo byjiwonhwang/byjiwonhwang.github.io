@@ -83,24 +83,92 @@ nav_order: 4
 </div>
 
 
-<h2 class="aw-heading">Patents <span class="aw-heading-ko">특허</span></h2>
+
+<h2 class="aw-heading">
+  Intellectual Property
+  <span class="aw-heading-ko">지식재산</span>
+</h2>
+
+<!-- Patents -->
+<h3 class="aw-heading">
+  Patents
+  <span class="aw-heading-ko">특허</span>
+</h3>
 
 <div class="aw-list">
+  <div class="aw-group">
+    <div class="aw-year">2026</div>
+    <ul class="aw-items">
 
-<div class="aw-group">
-<div class="aw-year">2026</div>
-<ul class="aw-items">
+      <li class="aw-item">
+        <span class="aw-title">
+          Apparatus and Method for Calculating Accident Occurrence Probability Based on Outdoor Thermal Comfort Index
+        </span>
+        <span class="aw-title-ko">
+          실외 열쾌적성 지수 기반 사고발생 확률 산출 장치 및 방법
+        </span>
+        <span class="aw-status">Registered</span>
+        <span class="aw-meta">
+          <span class="aw-org">
+            Korean Patent Registration No. 10-2971446 · 대한민국 특허 제10-2971446호
+          </span>
+        </span>
+        <span class="aw-meta">
+          <span class="aw-date">
+            Filed Jul 22, 2022 · Registered May 27, 2026
+          </span>
+        </span>
+        <a class="aw-link" href="https://doi.org/10.8080/1020220090720">
+          Patent record ↗
+        </a>
+      </li>
 
-<li class="aw-item">
-<span class="aw-title">Apparatus and Method for Calculating Accident Occurrence Probability Based on Outdoor Thermal Comfort Index</span>
-<span class="aw-title-ko">실외 열쾌적성 지수 기반 사고발생 확률 산출 장치 및 방법</span>
-<span class="aw-status">Registered</span>
-<span class="aw-meta"><span class="aw-org">Korean Patent Registration No. 10-2971446 · 대한민국 특허 제10-2971446호</span></span>
-<span class="aw-meta"><span class="aw-date">Filed Jul 22, 2022 · Registered May 27, 2026</span></span>
-<a class="aw-link" href="https://doi.org/10.8080/1020220090720">Patent record ↗</a>
-</li>
-
-</ul>
+    </ul>
+  </div>
 </div>
 
+<!-- Software Copyrights -->
+<h3 class="aw-heading">
+  Software Copyrights
+  <span class="aw-heading-ko">소프트웨어 저작권</span>
+</h3>
+
+<div class="aw-list">
+  <div class="aw-group">
+    <div class="aw-year">2026</div>
+    <ul class="aw-items">
+
+      <li class="aw-item">
+        <span class="aw-title">
+          Construction Site Outdoor Work Risk Assessment System Based on Thermal Environment and Air Pollution
+        </span>
+        <span class="aw-title-ko">
+          열환경 및 대기오염 기반 건설현장 실외작업 위험도 평가 시스템
+        </span>
+        <span class="aw-status">Registered</span>
+        <span class="aw-meta">
+          <span class="aw-org">
+            Software Copyright Registration No. C-2026-056348 · 프로그램 등록번호 C-2026-056348
+          </span>
+        </span>
+        <span class="aw-meta">
+          <span class="aw-date">
+            Registered Nov 3, 2026
+          </span>
+        </span>
+        <span class="aw-meta">
+          <span class="aw-org">
+            Authors: Jaewook Jeong, Jiwon Hwang, Louis Kumi
+          </span>
+        </span>
+        <span class="aw-meta">
+          <span class="aw-org">
+            Copyright Holder: Seoul National University of Science and Technology Industry-Academic Cooperation Foundation
+          </span>
+        </span>
+      </li>
+
+    </ul>
+  </div>
 </div>
+
