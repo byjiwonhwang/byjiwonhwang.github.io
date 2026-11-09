@@ -128,6 +128,7 @@ nav_order: 4
 </div>
 
 
+
 <!-- Software Copyrights -->
 <h3 class="aw-heading">
   Software Copyrights
@@ -157,11 +158,6 @@ nav_order: 4
             Registered Nov 3, 2026
           </span>
         </span>
-        <span class="aw-meta">
-          <span class="aw-org">
-            Authors: Jaewook Jeong, Jiwon Hwang, Louis Kumi
-          </span>
-        </span>
         <a class="aw-link"
            href="https://www.cros.or.kr/psnsys/cmmn/infoPage.do?w2xPath=/ui/twc/sch/swRscOtct/swRscOtctDtl.xml"
            target="_blank"
@@ -169,10 +165,6 @@ nav_order: 4
           Software record ↗
         </a>
       </li>
-
-    </ul>
-  </div>
-</div>
 
     </ul>
   </div>
