@@ -1,9 +1,10 @@
 ---
 layout: page
-title: IP
+title: Intellectual Property
 permalink: /ip/
 description: Patents and software copyrights.
 nav: true
+nav_title: IP
 nav_order: 5
 ---
 
