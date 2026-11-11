@@ -37,7 +37,7 @@ nav_order: 6
 
 .nw-badge-month {
   color: var(--global-theme-color);
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
