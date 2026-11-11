@@ -291,6 +291,7 @@ nav_order: 6
 <div class="nw-photos" data-news="15" data-alt="Fall Conference of the Korean Society of Safety 2026"></div>
 </div>
 </div>
+
 <!-- #16 -->
 <div class="nw-item">
 <div class="nw-badge">
