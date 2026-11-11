@@ -165,6 +165,16 @@ nav_order: 6
 <div class="nw-year">2026</div>
 <div class="nw-timeline">
 
+
+<!-- #18 -->
+<div class="nw-item">
+<div class="nw-date">Dec 1–2, 2026</div>
+<div class="nw-text">Poster presentation at the 8th Korea Occupational Safety, Health and Environment Forum on an outdoor work risk assessment system designed to protect construction workers from combined exposure to extreme heat and air pollution. <a href="https://8thkosheforum.notion.site/" target="_blank" rel="noopener noreferrer">[Forum Program]</a> </div>
+<div class="nw-text-ko">제8회 숲과나눔 환경학술포럼에서 폭염 및 대기오염물질 노출로부터 옥외 건설노동자를 보호하기 위한 실외작업 위험성평가 시스템을 포스터 발표할 예정입니다.</div>
+<div class="nw-photos" data-news="15" data-alt="8th Korea Occupational Safety, Health and Environment Forum"></div>
+</div>
+
+
 <!-- #15 -->
 <div class="nw-item">
 <div class="nw-date">Oct 28, 2026</div>
@@ -184,7 +194,7 @@ nav_order: 6
 <!-- #14 -->
 <div class="nw-item">
 <div class="nw-date">Jun 22–26, 2026</div>
-<div class="nw-text">Attended the 43rd International Symposium on Automation and Robotics in Construction (ISARC) in Singapore.</div> · <a href="[10.22260/ISARC2026/0099](https://doi.org/10.22260/ISARC2026/0099)">Paper</a></div>
+<div class="nw-text">Attended the 43rd International Symposium on Automation and Robotics in Construction (ISARC) in Singapore. · <a href="https://doi.org/10.22260/ISARC2026/0099" target="_blank" rel="noopener noreferrer">Paper</a></div>
 <div class="nw-text-ko">싱가포르에서 열린 제43회 건설 자동화·로보틱스 국제 심포지엄(ISARC)에 참석했습니다.</div>
 <div class="nw-photos" data-news="14" data-alt="ISARC 2026 in Singapore"></div>
 </div>
