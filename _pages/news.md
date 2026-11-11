@@ -68,7 +68,7 @@ nav_order: 6
 }
 
 .nw-text {
-  font-weight: 500;
+  font-weight: 400;
   }
   
 .nw-text-ko {
