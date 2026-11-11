@@ -184,7 +184,7 @@ nav_order: 6
 <!-- #14 -->
 <div class="nw-item">
 <div class="nw-date">Jun 22–26, 2026</div>
-<div class="nw-text">Attended the 43rd International Symposium on Automation and Robotics in Construction (ISARC) in Singapore.</div>
+<div class="nw-text">Attended the 43rd International Symposium on Automation and Robotics in Construction (ISARC) in Singapore.</div> · <a href="[10.22260/ISARC2026/0099](https://doi.org/10.22260/ISARC2026/0099)">Paper</a></div>
 <div class="nw-text-ko">싱가포르에서 열린 제43회 건설 자동화·로보틱스 국제 심포지엄(ISARC)에 참석했습니다.</div>
 <div class="nw-photos" data-news="14" data-alt="ISARC 2026 in Singapore"></div>
 </div>
