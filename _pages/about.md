@@ -54,10 +54,7 @@ latest_posts:
 <div class="ab-wrap">
 
 <div class="ab-text">
-
-<p>I am a graduate researcher in the Department of Safety Engineering at Seoul National University of Science and Technology (SeoulTech), working in the Construction Safety Research Laboratory (S³PARC).
-<span class="ab-ko">저는 서울과학기술대학교(SeoulTech) 안전공학과 대학원생으로, 건설안전연구실(S³PARC)에서 연구하고 있습니다.</span></p>
-
+  
 <p>My research aims to develop practical, data-driven approaches to identifying, assessing, and mitigating risks in construction.
 <span class="ab-ko">건설 현장의 위험을 식별, 평가, 완화하기 위한 실용적이고 데이터에 기반한 접근을 연구합니다.</span></p>
 
