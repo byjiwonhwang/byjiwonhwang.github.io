@@ -273,7 +273,7 @@ nav_order: 6
 <span class="nw-badge-day">3</span>
 </div>
 <div class="nw-body">
-<div class="nw-text">Software copyright registered for "Outdoor Work Risk Assessment System for Construction Sites Based on Thermal Environment and Air Pollutant Concentrations" (Registration No. C-2026-056348). · <a href="https://www.cros.or.kr/psnsys/cmmn/infoPage.do?w2xPath=/ui/twc/sch/swRscOtct/swRscOtctDtl.xml" target="_blank" rel="noopener noreferrer">Link</a></div>
+<div class="nw-text">Software copyright registered for "Outdoor Work Risk Assessment System for Construction Sites Based on Thermal Environment and Air Pollutant Concentrations" (Registration No. C-2026-056348). · <a href="https://www.cros.or.kr/psnsys/cmmn/infoPage.do?w2xPath=/ui/twc/sch/swRscOtct/swRscOtctDtl.xml" target="_blank" rel="noopener noreferrer">Link</a> · <a href="https://play.google.com/store/apps/details?id=kr.ac.seoultech.s3parc.enviguardapp" target="_blank" rel="noopener noreferrer">Google Play</a> · <a href="https://apps.apple.com/kr/app/%EC%8B%A4%EC%99%B8%EC%9E%91%EC%97%85-%EC%9C%84%ED%97%98%EB%8F%84/id6801081085" target="_blank" rel="noopener noreferrer">App Store</a></div>
 <div class="nw-text-ko">'열환경 및 대기오염물질 농도 기반 건설현장 실외작업 위험도 평가 시스템'의 소프트웨어 저작권을 등록했습니다(등록번호: C-2026-056348).</div>
 <div class="nw-photos" data-news="19" data-alt="Software Copyright Registration 2026"></div>
 </div>
