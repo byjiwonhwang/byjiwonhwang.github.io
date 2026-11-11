@@ -6,14 +6,8 @@ description: Patents and software copyrights.
 nav: true
 nav_order: 5
 ---
-  .post-header {
-    display: none;
-  }
+
 <style>
-    <div class="post-header-custom">
-    <h1 class="post-title">Intellectual Property</h1>
-    <p class="post-description">Patents and software copyrights.</p>
-  </div>
 .aw-heading { display: flex; align-items: baseline; gap: 0.6rem; margin: 2.8rem 0 0.8rem; font-size: 1.7rem; font-weight: 700; }
 .aw-heading-ko { font-size: 0.95rem; font-weight: 400; opacity: 0.55; }
 .aw-list { border-bottom: 1px solid rgba(128, 128, 128, 0.3); }
