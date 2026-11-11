@@ -179,7 +179,7 @@ nav_order: 6
 <div class="nw-text">Software copyright registered for "Outdoor Work Risk Assessment System for Construction Sites Based on Thermal Environment and Air Pollutant Concentrations." · <a href="https://www.cros.or.kr/psnsys/cmmn/infoPage.do?w2xPath=/ui/twc/sch/swRscOtct/swRscOtctDtl.xml" target="_blank" rel="noopener noreferrer">Registration No. C-2026-056348</a></div>
 <div class="nw-text-ko">'열환경 및 대기오염물질 농도 기반 건설현장 실외작업 위험도 평가 시스템'의 소프트웨어 저작권을 등록했습니다(등록번호: C-2026-056348).</div>
 <div class="nw-photos" data-news="19" data-alt="Software Copyright Registration 2026"></div>
-</div>
+</div> 
 
 <!-- #15 -->
 <div class="nw-item">
