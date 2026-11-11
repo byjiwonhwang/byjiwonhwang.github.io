@@ -165,6 +165,14 @@ nav_order: 6
 <div class="nw-year">2026</div>
 <div class="nw-timeline">
 
+<!-- #18 -->
+<div class="nw-item">
+<div class="nw-date">Dec 1–2, 2026</div>
+<div class="nw-text">Poster presentation at the 8th Korea Occupational Safety, Health and Environment Forum on an outdoor work risk assessment system designed to protect construction workers from combined exposure to extreme heat and air pollution. <a href="https://8thkosheforum.notion.site/" target="_blank" rel="noopener noreferrer">[Forum Program]</a> </div>
+<div class="nw-text-ko">제8회 숲과나눔 환경학술포럼에서 폭염 및 대기오염물질 노출로부터 옥외 건설노동자를 보호하기 위한 실외작업 위험성평가 시스템을 포스터 발표할 예정입니다.</div>
+<div class="nw-photos" data-news="18" data-alt="8th Korea Occupational Safety, Health and Environment Forum"></div>
+</div>
+
 <!-- #19 -->
 <div class="nw-item">
 <div class="nw-date">Nov 3, 2026</div>
@@ -172,16 +180,6 @@ nav_order: 6
 <div class="nw-text-ko">'열환경 및 대기오염물질 농도 기반 건설현장 실외작업 위험도 평가 시스템'의 소프트웨어 저작권을 등록했습니다(등록번호: C-2026-056348).</div>
 <div class="nw-photos" data-news="19" data-alt="Software Copyright Registration 2026"></div>
 </div>
-
-
-<!-- #18 -->
-<div class="nw-item">
-<div class="nw-date">Dec 1–2, 2026</div>
-<div class="nw-text">Poster presentation at the 8th Korea Occupational Safety, Health and Environment Forum on an outdoor work risk assessment system designed to protect construction workers from combined exposure to extreme heat and air pollution. <a href="https://8thkosheforum.notion.site/" target="_blank" rel="noopener noreferrer">[Forum Program]</a> </div>
-<div class="nw-text-ko">제8회 숲과나눔 환경학술포럼에서 폭염 및 대기오염물질 노출로부터 옥외 건설노동자를 보호하기 위한 실외작업 위험성평가 시스템을 포스터 발표할 예정입니다.</div>
-<div class="nw-photos" data-news="15" data-alt="8th Korea Occupational Safety, Health and Environment Forum"></div>
-</div>
-
 
 <!-- #15 -->
 <div class="nw-item">
