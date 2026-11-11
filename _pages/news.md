@@ -168,7 +168,7 @@ nav_order: 6
 <!-- #18 -->
 <div class="nw-item">
 <div class="nw-date">Dec 1–2, 2026</div>
-<div class="nw-text">Poster presentation at the 8th Korea Occupational Safety, Health and Environment Forum on an outdoor work risk assessment system designed to protect construction workers from combined exposure to extreme heat and air pollution. <a href="https://8thkosheforum.notion.site/" target="_blank" rel="noopener noreferrer">[Forum Program]</a> </div>
+<div class="nw-text">Poster presentation at the 8th Korea Occupational Safety, Health and Environment Forum on an outdoor work risk assessment system designed to protect construction workers from combined exposure to extreme heat and air pollution. · <a href="https://8thkosheforum.notion.site/" target="_blank" rel="noopener noreferrer">Link</a></div>
 <div class="nw-text-ko">제8회 숲과나눔 환경학술포럼에서 폭염 및 대기오염물질 노출로부터 옥외 건설노동자를 보호하기 위한 실외작업 위험성평가 시스템을 포스터 발표할 예정입니다.</div>
 <div class="nw-photos" data-news="18" data-alt="8th Korea Occupational Safety, Health and Environment Forum"></div>
 </div>
@@ -176,8 +176,8 @@ nav_order: 6
 <!-- #19 -->
 <div class="nw-item">
 <div class="nw-date">Nov 3, 2026</div>
-<div class="nw-text">Software copyright registered for "Outdoor Work Risk Assessment System for Construction Sites Based on Thermal Environment and Air Pollutant Concentrations." · <a href="https://www.cros.or.kr/psnsys/cmmn/infoPage.do?w2xPath=/ui/twc/sch/swRscOtct/swRscOtctDtl.xml" target="_blank" rel="noopener noreferrer">Registration No. C-2026-056348</a></div>
-<div class="nw-text-ko">'열환경 및 대기오염물질 농도 기반 건설현장 실외작업 위험도 평가 시스템'의 소프트웨어 저작권을 등록했습니다(등록번호: C-2026-056348).</div>
+<div class="nw-text">Software copyright registered for "Outdoor Work Risk Assessment System for Construction Sites Based on Thermal Environment and Air Pollutant Concentrations" (Registration No. C-2026-056348). · <a href="https://www.cros.or.kr/psnsys/cmmn/infoPage.do?w2xPath=/ui/twc/sch/swRscOtct/swRscOtctDtl.xml" target="_blank" rel="noopener noreferrer">Link</a></div>
+  <div class="nw-text-ko">'열환경 및 대기오염물질 농도 기반 건설현장 실외작업 위험도 평가 시스템'의 소프트웨어 저작권을 등록했습니다(등록번호: C-2026-056348).</div>
 <div class="nw-photos" data-news="19" data-alt="Software Copyright Registration 2026"></div>
 </div> 
 
@@ -200,7 +200,7 @@ nav_order: 6
 <!-- #14 -->
 <div class="nw-item">
 <div class="nw-date">Jun 22–26, 2026</div>
-<div class="nw-text">Attended the 43rd International Symposium on Automation and Robotics in Construction (ISARC) in Singapore. · <a href="https://doi.org/10.22260/ISARC2026/0099" target="_blank" rel="noopener noreferrer">Paper</a></div>
+<div class="nw-text">Attended the 43rd International Symposium on Automation and Robotics in Construction (ISARC) in Singapore. · <a href="https://doi.org/10.22260/ISARC2026/0099" target="_blank" rel="noopener noreferrer">Link</a></div>
 <div class="nw-text-ko">싱가포르에서 열린 제43회 건설 자동화·로보틱스 국제 심포지엄(ISARC)에 참석했습니다.</div>
 <div class="nw-photos" data-news="14" data-alt="ISARC 2026 in Singapore"></div>
 </div>
@@ -216,7 +216,7 @@ nav_order: 6
 <!-- #12 -->
 <div class="nw-item">
 <div class="nw-date">May 27, 2026</div>
-<div class="nw-text">Korean patent registered (No. 10-2971446): an apparatus and method for calculating accident occurrence probability based on an outdoor thermal comfort index. · <a href="https://doi.org/10.8080/1020220090720">Patent</a></div>
+<div class="nw-text">Korean patent registered (No. 10-2971446): an apparatus and method for calculating accident occurrence probability based on an outdoor thermal comfort index. · <a href="https://doi.org/10.8080/1020220090720" target="_blank" rel="noopener noreferrer">Link</a></div>
 <div class="nw-text-ko">실외 열쾌적성 지수 기반 사고발생 확률 산출 장치 및 방법에 대한 특허가 등록되었습니다(등록번호 10-2971446).</div>
 <div class="nw-photos" data-news="12" data-alt="Patent registration"></div>
 </div>
@@ -245,7 +245,7 @@ nav_order: 6
 <!-- #17 -->
 <div class="nw-item">
 <div class="nw-date">Dec 31, 2025</div>
-<div class="nw-text">Paper published in the Journal of the Korean Society of Safety on the relationship between outdoor thermal environment, thermal comfort, and occupational accidents in the construction industry: a systematic review. · <a href="https://kiss.kstudy.com/Detail/Ar?key=4277456">Paper</a></div>
+<div class="nw-text">Paper published in the Journal of the Korean Society of Safety on the relationship between outdoor thermal environment, thermal comfort, and occupational accidents in the construction industry: a systematic review. · <a href="https://kiss.kstudy.com/Detail/Ar?key=4277456" target="_blank" rel="noopener noreferrer">Link</a></div>
 <div class="nw-text-ko">건설업에서 실외 열환경 및 열쾌적성과 산업재해의 관계에 대한 체계적 고찰 논문이 한국안전학회지에 게재되었습니다.</div>
 <div class="nw-photos" data-news="17" data-alt="Journal of the Korean Society of Safety"></div>
 </div>
@@ -269,15 +269,15 @@ nav_order: 6
 <!-- #7 -->
 <div class="nw-item">
 <div class="nw-date">Oct 31, 2025</div>
-<div class="nw-text">Paper published in the Journal of the Korean Society of Safety on problems in the estimation of full-time equivalent workers in the Korean construction industry. · <a href="https://doi.org/10.14346/JKOSOS.2025.40.5.45">Paper</a></div>
-<div class="nw-text-ko">국내 건설업 상시근로자 수 산출방식의 문제점에 관한 논문이 한국안전학회지에 게재되었습니다.</div>
+<div class="nw-text">Paper published in the Journal of the Korean Society of Safety on problems in the estimation of full-time equivalent workers in the Korean construction industry. · <a href="https://doi.org/10.14346/JKOSOS.2025.40.5.45" target="_blank" rel="noopener noreferrer">Link</a></div>
+div class="nw-text-ko">국내 건설업 상시근로자 수 산출방식의 문제점에 관한 논문이 한국안전학회지에 게재되었습니다.</div>
 <div class="nw-photos" data-news="7" data-alt="Journal of the Korean Society of Safety"></div>
 </div>
 
 <!-- #6 -->
 <div class="nw-item">
 <div class="nw-date">Sep 17, 2025</div>
-<div class="nw-text">Received the Grand Prize at the Industrial Safety Cooperative Research Paper Competition. · <a href="https://www.ispf.or.kr/select/foudNesMain/foudNesMainInfo.do?cmmntyId=2024030013&amp;nttNo=555">News</a></div>
+<div class="nw-text">Received the Grand Prize at the Industrial Safety Cooperative Research Paper Competition. · <a href="https://www.ispf.or.kr/select/foudNesMain/foudNesMainInfo.do?cmmntyId=2024030013&amp;nttNo=555" target="_blank" rel="noopener noreferrer">Link</a></div>
 <div class="nw-text-ko">산업안전 상생 논문 경진대회에서 대상을 받았습니다.</div>
 <div class="nw-photos" data-news="6" data-alt="Industrial Safety Cooperative Research Paper Competition"></div>
 </div>
@@ -285,7 +285,7 @@ nav_order: 6
 <!-- #5 -->
 <div class="nw-item">
 <div class="nw-date">Jun 5, 2025</div>
-<div class="nw-text">Selected for the Presidential Science Scholarship (Graduate), 23rd Cohort. · <a href="https://www.safetyin.co.kr/news/articleView.html?idxno=21930">News</a></div>
+<div class="nw-text">Selected for the Presidential Science Scholarship (Graduate), 23rd Cohort. · <a href="https://www.safetyin.co.kr/news/articleView.html?idxno=21930" target="_blank" rel="noopener noreferrer">Link</a></div>
 <div class="nw-text-ko">대통령과학장학금(대학원) 제23기 장학생으로 선정되었습니다.</div>
 <div class="nw-photos" data-news="5" data-alt="Presidential Science Scholarship"></div>
 </div>
@@ -306,7 +306,7 @@ nav_order: 6
 <!-- #3 -->
 <div class="nw-item">
 <div class="nw-date">Apr 1, 2023</div>
-<div class="nw-text">Paper published in Sustainable Cities and Society on outdoor thermal comfort index groups for quantifying climate impact on construction accidents. · <a href="https://doi.org/10.1016/j.scs.2023.104431">Paper</a></div>
+<div class="nw-text">Paper published in Sustainable Cities and Society on outdoor thermal comfort index groups for quantifying climate impact on construction accidents. · <a href="https://doi.org/10.1016/j.scs.2023.104431" target="_blank" rel="noopener noreferrer">Link</a></div>
 <div class="nw-text-ko">건설 사고에 대한 기후 영향을 정량화하기 위한 실외 열쾌적성 지수 그룹 논문이 Sustainable Cities and Society에 게재되었습니다.</div>
 <div class="nw-photos" data-news="3" data-alt="Sustainable Cities and Society"></div>
 </div>
