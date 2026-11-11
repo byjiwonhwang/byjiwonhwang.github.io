@@ -37,14 +37,14 @@ nav_order: 6
 
 .nw-badge-month {
   color: var(--global-theme-color);
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
 .nw-badge-day {
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   font-weight: 700;
   white-space: nowrap;
 }
@@ -227,6 +227,24 @@ nav_order: 6
   }
 }
 </style>
+
+<div class="nw-year">2027</div>
+<div class="nw-timeline">
+
+<!-- #20 -->
+<div class="nw-item">
+<div class="nw-badge">
+<span class="nw-badge-month">Jan</span>
+<span class="nw-badge-day">20–22</span>
+</div>
+<div class="nw-body">
+<div class="nw-text">Will present "From Detection to Mitigation: An End-to-End Vision–Statistics–LLM Framework for Construction Risk Assessment" at the 7th International Conference on Civil and Building Engineering Informatics (ICCBEI 2027) in Auckland, New Zealand. · <a href="https://www.iccbei2027.auckland.ac.nz/" target="_blank" rel="noopener noreferrer">Link</a></div>
+<div class="nw-text-ko">뉴질랜드 오클랜드에서 열리는 제7회 건설·건축 정보학 국제학술대회(ICCBEI 2027)에서 "From Detection to Mitigation: An End-to-End Vision–Statistics–LLM Framework for Construction Risk Assessment"를 발표할 예정입니다.</div>
+<div class="nw-photos" data-news="20" data-alt="ICCBEI 2027 in Auckland"></div>
+</div>
+</div>
+
+</div>
 
 <div class="nw-year">2026</div>
 <div class="nw-timeline">
