@@ -67,6 +67,10 @@ nav_order: 6
   background: var(--global-theme-color);
 }
 
+.nw-text {
+  font-weight: 500;
+  }
+  
 .nw-text-ko {
   font-size: 0.95rem;
   margin-top: 0.2rem;
