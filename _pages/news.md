@@ -59,7 +59,7 @@ nav_order: 6
 .nw-body::before {
   content: "";
   position: absolute;
-  left: calc(-1.6rem - 6px);
+  left: -6px;
   top: 0.4rem;
   width: 10px;
   height: 10px;
