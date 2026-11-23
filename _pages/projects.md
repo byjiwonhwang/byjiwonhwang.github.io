@@ -37,6 +37,16 @@ nav_order: 3
 </li>
 
 <li class="pj-item">
+<div class="pj-period">July 2026 – <br>Dec 2026 <br><span class="pj-dur">(6 months)</span></div>
+<div class="pj-body">
+<span class="pj-title">S³PARC (2026 Laboratory-Specialized Startup-Leading University Program, Innovation Startup Laboratory Unit Project)</span>
+<span class="pj-title-ko">2026년 실특사업 혁신창업실험실 단위과제</span>
+<span class="pj-org">Korea Technology Commercialization Agency 과학기술사업화진흥원</span>
+<span class="pj-role">Research Assistant 연구보조원</span>
+</div>
+</li>
+
+<li class="pj-item">
 <div class="pj-period">Jun 2026 – <br>Oct 2026 <br><span class="pj-dur">(5 months)</span></div>
 <div class="pj-body">
 <span class="pj-title">Study on Improving the Public Institution Evaluation System with a Focus on Field Operability</span>
@@ -72,16 +82,6 @@ nav_order: 3
 <span class="pj-title">Study on an Implementation Model for Restructuring the Occupational Safety and Health Education System in the Construction Industry</span>
 <span class="pj-title-ko">건설업 안전보건 교육제고 개편 실행모델 연구</span>
 <span class="pj-org">Industrial Safety Cooperative Foundation 재단법인 산업안전상생재단</span>
-<span class="pj-role">Research Assistant 연구보조원</span>
-</div>
-</li>
-
-<li class="pj-item">
-<div class="pj-period">July 2026 – <br>Dec 2026 <br><span class="pj-dur">(6 months)</span></div>
-<div class="pj-body">
-<span class="pj-title">S³PARC (2026 Laboratory-Specialized Startup-Leading University Program, Innovation Startup Laboratory Unit Project)</span>
-<span class="pj-title-ko">2026년 실특사업 혁신창업실험실 단위과제</span>
-<span class="pj-org">Korea Technology Commercialization Agency 과학기술사업화진흥원</span>
 <span class="pj-role">Research Assistant 연구보조원</span>
 </div>
 </li>
